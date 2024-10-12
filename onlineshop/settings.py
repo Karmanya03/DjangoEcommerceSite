@@ -25,7 +25,7 @@ EMAIL_USE_TLS = True
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '+@c%65nvy*4s-z_f%p+^w)=ji7u9^k$!uoq)%_g!5^i-m)&ye4'
+SECRET_KEY = '' #Removed My SecretKey from here , Put Your own!
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -186,8 +186,8 @@ ACCOUNT_PASSWORD_MIN_LENGTH = 6
 ACCOUNT_LOGIN_ON_EMAIL_CONFIRMATION = True
 
 #Stripe test keys
-STRIPE_PUBLISHABLE_KEY = 'pk_test_oxFqwE33CrQpO4WJrGPXytwd'
-STRIPE_SECRET_KEY = 'sk_test_FqmN8OQbuxmJdDFsLYSaTWEp'
+STRIPE_PUBLISHABLE_KEY = ''
+STRIPE_SECRET_KEY = ''#Stripe Keys
 
 #Stipe live payment keys
 
